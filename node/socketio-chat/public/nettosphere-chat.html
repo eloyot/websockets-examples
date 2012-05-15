@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Atmosphere Web Socket Chat Example</title>
+		<script src="javascript/atmosphere-chat/jquery-1.6.4.js"></script>
+		<script src="javascript/atmosphere-chat/jquery.atmosphere.js"></script>
+		<script src="javascript/atmosphere-chat/chat-client.js"></script>
+	</head>
+	<body>
+		<h3>Atmosphere Web Socket Chat</h3>
+		<p>This example uses the Atmosphere web socket API on the client and the the Atmosphere web socket interface
+		   running on the Nettosphere server.</p>
+		<button id="connectButton" onclick="connect();">Connect</button><br/>
+		<button id="disconnectButton" onclick="disconnect();">Disconnect</button><br/>
+		<button id="clearButton" onclick="clearMessages();">Clear</button><br/>
+		<button id="sendButton" onclick="send();">Send</button>
+		<input id="messageInput" type="text"/><br/>
+		<div id="consoleDiv"/>
+	</body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+	<head>
+		<title>jWebSocket Web Socket Chat</title>
+		<script src="javascript/jquery-1.7.2.js"></script>
+		<script src="javascript/jwebsocket-chat/jWebSocket.js"></script>
+		<script src="javascript/jwebsocket-chat/chat-client.js"></script>
+	</head>
+	<body>
+		<h3>jWebSocket Web Socket Chat</h3>
+		<p>This example uses the jWebSocket web socket API on the client and the the jWebSocket web socket interface
+		   running on the jWebSocket server.</p>
+		<button id="connectButton" onclick="connect();">Connect</button><br/>
+		<button id="disconnectButton" onclick="disconnect();">Disconnect</button><br/>
+		<button id="clearButton" onclick="clearMessages();">Clear</button><br/>
+		<button id="sendButton" onclick="send();">Send</button>
+		<input id="messageInput" type="text"/><br/>
+		<div id="consoleDiv"/>
+	</body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Basic Web Socket Chat</title>
+		<script src="javascript/jquery-1.7.2.js"></script>
+		<script src="javascript/netty-chat/chat-client.js"></script>
+	</head>
+	<body>
+		<h3>Basic Web Socket Chat</h3>
+		<p>This example uses the standard web socket API on the client and the the Netty web socket interface
+		   running on the Netty server.</p>
+		<button id="connectButton" onclick="connect();">Connect</button><br/>
+		<button id="disconnectButton" onclick="disconnect();">Disconnect</button><br/>
+		<button id="clearButton" onclick="clearMessages();">Clear</button><br/>
+		<button id="sendButton" onclick="send();">Send</button>
+		<input id="messageInput" type="text"/><br/>
+		<div id="consoleDiv"/>
+	</body>
+</html>
+
+

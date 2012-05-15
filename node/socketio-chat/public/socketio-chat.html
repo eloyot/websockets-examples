@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Socket.IO Web Socket Chat</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="javascript/jquery-1.7.2.js"></script>
+		<script src="javascript/socketio-chat/chat-client.js"></script>
+	</head>
+	<body>
+		<h3>Socket.IO Web Socket Chat</h3>
+		<p>This example uses the Socket.IO web socket API on the client and the the Socket.IO web socket interface
+		   running on the Node.js server.</p>
+		<button id="connectButton" onclick="connect();">Connect</button><br/>
+		<button id="disconnectButton" onclick="disconnect();">Disconnect</button><br/>
+		<button id="clearButton" onclick="clearMessages();">Clear</button><br/>
+		<button id="sendButton" onclick="send();">Send</button>
+		<input id="messageInput" type="text"/><br/>
+		<div id="consoleDiv"/>
+	</body>
+</html>
+
+
